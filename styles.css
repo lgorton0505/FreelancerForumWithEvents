@@ -20,6 +20,7 @@ ul{
 li{
     margin: 10px;
     cursor: pointer;
+    /*Cursor so that user knows the items can be clicked*/
 }
 
 h3{

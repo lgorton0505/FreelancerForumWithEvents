@@ -53,6 +53,7 @@ function render(){
     spanCount.innerHTML = products.length;
     const average = sum / products.length;
 
+    /// Making sure than NaN is not shown when all freelancers are cleared
    if(isNaN(average)){
     spanAverageRate.innerHTML = 0;
    }else{
